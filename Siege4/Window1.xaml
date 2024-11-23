@@ -1,0 +1,11 @@
+﻿<Window x:Class="Siege4.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Siege4.Controls"
+    Title="Siege4" Height="516.615" Width="786.588">
+    <Grid>
+        <local:MudDisplay x:Name="mudbox"/>
+        <StatusBar Height="18" Name="statusBar1" VerticalAlignment="Bottom" Background="PaleGoldenrod" IsTabStop="True" />
+        <TextBox Name="UserInput" Background="White" Foreground="Black" Margin="0,0,0,23.331" Height="20" VerticalAlignment="Bottom" KeyUp="TextBox_KeyUp">Whatnot</TextBox>
+    </Grid>
+</Window>
